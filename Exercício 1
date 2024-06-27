@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicios1</title>
+</head>
+<body>
+<script>
+        function cumprimentar(text) {
+            return "Olá, " + text + "!";
+        }
+        let userInput = prompt("Digite um nome:");
+        let mensagem = cumprimentar(userInput);
+        document.write(mensagem);
+    </script>
+</body>
+</html>
